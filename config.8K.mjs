@@ -37,7 +37,7 @@ export default {
   // only works for ooba and koboldcpp
   //////////////////////////////////////////////////////////////////////////////
   //stoppingStrings: ["\n##", "\n{{user}}:"],
-  stoppingStrings: ["</s>", "##", "\n# ", "\n##", "\n*{{user}}", "\nInstruction:", "\nUser:", "\n{{user}}:"],
+  stoppingStrings: ["</s>", "##", "\n# ", "\n##", "\n*He ", "\n*{{user}} ", "\nInstruction:", "\nUser:", "\n{{user}}:"],
   //////////////////////////////////////////////////////////////////////////////
 
   // if you want to pin the example messages in the prompt
